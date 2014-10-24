@@ -62,9 +62,10 @@
 			width: 50% !important;
 			height:200px !important;
 		 	border-bottom: 1px solid $grey_border_color;
-			padding-left: 5px;
+			padding-left: 15px;
 	}
 	.mw-ProductList{
+		padding-top: $std-spacing2;
 		li:nth-child(even){
 			border-right: 1px solid $grey_border_color;
 		}
