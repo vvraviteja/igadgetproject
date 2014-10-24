@@ -1,0 +1,87 @@
+.mw-product{
+	.BlockContent {
+		h2,h3{
+			margin: $std-spacing2  $std-spacing2 ;
+		}
+		p{
+			margin: 0px $std-spacing2 ;
+		}
+	}
+	.ProductTinyImageList{
+		ul{
+			li{
+				margin-right:2px;
+			}
+		}
+	}
+	.productAttributeLabel{
+		float:left;
+	}
+	.productAttributeValue{
+		margin-left:110px;
+		ul{
+			background:$grey_background;
+		}
+	}
+	.mw-ProductThumb{
+		margin:$std-spacing2 $std-spacing2;
+		border:1px solid $grey_border_color;
+		width:90% !important;
+		height:300px;
+	}
+	.mw-ProductMain{
+		margin:$std-spacing2 $std-spacing2;
+		background:$grey_background;
+		padding:$small-spacing;
+	}
+	.mw-BulkDiscount{
+		padding:$small-spacing;
+	}
+	.ProductSectionSeparator{
+		margin-top:$std-spacing2;
+	}
+	.mw-ProductReviews{
+		a{
+			display:none;
+		}
+		
+	}
+	.mw-DetailRow{
+		clear:both;
+		margin:$small-spacing;
+	}
+	.mw-ProductDescription{
+		margin:$small-spacing $std-spacing2;
+		line-height: 25px;
+	}
+	
+	hr,br{
+		display:none !important;
+	}
+	.mw-box{
+			width: 50% !important;
+			height:200px !important;
+		 	border-bottom: 1px solid $grey_border_color;
+			padding-left: 5px;
+	}
+	.mw-ProductList{
+		li:nth-child(even){
+			border-right: 1px solid $grey_border_color;
+		}
+		li:nth-child(odd){
+			
+			float:right;
+		}
+	}
+	.mw-ProductDetails{
+		width: 100%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		height:20px !important;
+	}
+	.mw-ProductPriceRating{
+		height:10px !important;
+	}
+
+}
