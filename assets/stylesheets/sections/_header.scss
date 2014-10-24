@@ -1,6 +1,7 @@
 header.mw-header {
 	@include background(linear-gradient(top, $orange1, $orange2));
-	color: $white !important;	
+	color: $white !important;
+	height:100px;	
     .mw-icon{
   		display:block;
   		margin-right:$std-spacing2;

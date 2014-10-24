@@ -45,7 +45,7 @@ body{
 	padding-top: $std-spacing;
 }
 .mw-bar1{
-	padding: $std-spacing2;
+	padding: $std-spacing2 !important;
 	@include background(linear-gradient(top, $orange1, $orange2));
 	width: 100%;
 	display: block;
