@@ -1,40 +1,65 @@
-# Moovweb Project
-Welcome to your Moovweb project! Moovweb is a great way to build a compelling new front-end presentation for an existing website. The files in this project describe the changes you want to make to the front end of a site. There are places in this project to add new images (assets/images/), styles (assets/stylesheets/) and even manipulate HTML (scripts/).
+#Installing the WinWholesale App on an iOS device
 
-## Before Running This
-To run this project, you must have the Moovweb SDK installed on your system. Installation is easy - just go to [the download page on the Moovweb site](http://developer.moovweb.com/download) to download and install.
+Make sure that you have the iTunes application installed on the computer that you are going to sync with your iOS device, if not download it from
+http://www.apple.com/itunes/download/  
 
-NOTE: This document assumes that you are using the latest version of Moovweb SDK, 5.0 or later. If you are using an earlier release of the Moovweb SDK, the commands to run the server and deploy your project to a site will be different. Please [update your SDK](http://developer.moovweb.com/download) to version 5.0 or later, or see the detailed documentation for information about managing projects with older Moovweb SDK versions at [developer.moovweb.com](http://developer.moovweb.com).
+Connect your iOS device to the computer. ITunes will recognize the iOS device and synchronize it.
 
-## Starting
-To manage your local development and testing, cd to the directory where you want to manage all your Moovweb project (typically it will be the parent directory that contains the directory where this readme file lives) and issue the following command:
+Download the ipa install file from the following location to your local computer.
+https://github.com/moovweb-projects/winwholesale-app/raw/master/staging/version_0.1/winwholesale.ipa
 
-    sudo moov start
+    Note: You should have access to the above GitHub repository. 
+    	  As per the required version modify the “version_N” part of the URL.
+    	  Based on the environment modify “staging” or “production” in the URL.
 
-This will launch the local Moovweb Developer Dashboard interface in your favorite browser. The Moovweb Developer Dashboard will let you generate, manage, start, debug, and track locally running projects as you develop.
+ Double click on the ipa file to add it to iTunes.
 
-## Serving
-You can also start the Moovweb server directly. Just cd to this project folder in a terminal and then run the following command:
+Click on the button labeled “iPhone”. This button is available in the menu on the left hand side under “Devices”.
 
-    sudo moov server 
+Select “Apps” from the top of the screen (below “Summary” link) after selecting the device. You should see the WinWholesale app in the list of applications. Click on the install button next to it.
 
-Then in a web browser, you can visit [mlocal.igadgetcommerce.com](http://mlocal.igadgetcommerce.com) and you are ready to start testing and developing!
+Click on the Apply button at the bottom of the list. The “Install” text will now change to “Will Install”.
 
-## Deployment
-When the local project looks the way you want, and you're ready to deploy, you need to have a destination site on Moovweb. 
+Click on the Sync button at the bottom of the screen. The app should now begin installing on your device. The app icon will be grayed out until installation completes.
 
-If you don't already have an Moovweb site, log in to the [Control Center](http://console.moovweb.com) and create a project, giving it a unique name. 
+iTunes will now recognize the app as installed and show the “Remove” button next to the WinWholesale app.
 
-Then return to the command line and, from within the project directory, just enter the command:
+On the iPhone device, click on the WinWholesale app icon to launch the application.
 
-    moov deploy YOUR-ACCOUNT-NAME/YOUR-SITE-NAME
+#Installing the WinWholesale App on an android device:
+From a computer:
 
-## More Info
-We have lots of informative guides, videos, live help, documentation, and even a book on how to use Moovweb. You should be able to get up and running in 30 minutes if you visit [developer.moovweb.com](http://developer.moovweb.com).
+Download the apk install file from the following location to your local computer.
 
-You might find [the page about the scripts folder](http://developer.moovweb.com/docs/local/project_files) useful for starting to write Tritium, and our [documents on the stylesheets folder](http://developer.moovweb.com/docs/local/project_files/stylesheet) for information on how we structure our stylesheets.
+https://github.com/moovweb-projects/winwholesale-app/raw/master/staging/version_0.1/winwholesale_app.apk
 
-## Domains
-If running `sudo moov server`, remember to put all domains you're going to hit in your etc/hosts if you run your server with the `-auto-hosts=false` option.
+Note: 	You should have access to the above GitHub repository. 
+As per the required version modify the “version_N” part of the URL.
+Based on the environment modify “staging” or “production” in the URL.
 
-    127.0.0.1   mlocal.igadgetcommerce.com
+Connect your android device to the computer using the data transfer cable. You should see it in your file explorer now.
+
+Copy the file to the internal storage on your phone using mass transfer mode which should be enabled on android devices by default.
+
+On the phone navigate to Settings -> Security -> Unknown sources.  Make sure that the checkbox is selected. If not, then enable the option.
+
+Click on the apk in the location that you have copied the file to. It will show a screen with the permissions required and Install button. Click on the Install button. 
+
+The app will be installed. Click the open button or click on the app from the app drawer to open the application.
+
+From an android device
+
+Download the apk install file from the following location to your android device.
+
+https://github.com/moovweb-projects/winwholesale-app/raw/master/staging/version_0.1/winwholesale_app.apk
+
+Note: 	You should have access to the above GitHub repository. 
+As per the required version modify the “version_N” part of the URL.
+Based on the environment modify “staging” or “production” in the URL.
+
+
+On the phone navigate to Settings -> Security -> Unknown sources.  Make sure that the checkbox is selected. If not, then enable the option.
+
+Click on the apk in the location that you have copied the file to. It will show a screen with the permissions required and Install button. Click on the Install button. 
+
+The app will now be installed. Click the Open button or click on the app from the app drawer to open the application.
